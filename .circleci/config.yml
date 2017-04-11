@@ -1,7 +1,9 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/go/src/github.com/sheerun/firebasehelpers
+    working_directory: /root/go/src/github.com/sheerun/firebasehelpers
+    environment:
+      - GOPATH: "/root/go"
     docker:
       - image: golang:1.8
     steps:
