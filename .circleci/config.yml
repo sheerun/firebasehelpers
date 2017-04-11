@@ -1,1 +1,9 @@
 version: 2
+jobs:
+  build:
+    working_directory: ~
+    docker:
+      - image: golang:1.8
+    steps:
+      - checkout
+      - run: go test
