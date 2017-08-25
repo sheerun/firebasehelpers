@@ -4,4 +4,4 @@ Set of firebase helpers to use for observing values
 
 ## License
 
-MIT
+Apache 2.0
